@@ -20,6 +20,7 @@ function memo() {
             投稿日時：${item.created_at}
           </div>
           <div class="post-content">
+          ${item.content}
           </div>
         </div>`;
       list.insertAdjacentHTML("afterend", HTML);
